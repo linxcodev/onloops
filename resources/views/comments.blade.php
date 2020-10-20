@@ -9,7 +9,7 @@
           {{$comment->comment}}
         </h2>
 
-        <p class="post-meta">Posted by
+        <p class="post-meta">Comment by
           <a href="#">{{$comment->name}} | {{$comment->email}}</a>
           on {{$comment->created_at}}</p>
       </div>
